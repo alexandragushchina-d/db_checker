@@ -1,0 +1,12 @@
+{
+  "db-type": "pg",
+  "db-host": "",
+  "db-name": "",
+  "db-port": 5432,
+  "db-user": "",
+  "db-psswrd": "12345",
+
+  "script-dir": "./pg_scripts",
+  "result-file": "./pg_scripts/result.json",
+  "iteration-count": 50
+}

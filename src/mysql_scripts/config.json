@@ -1,0 +1,12 @@
+{
+  "db-type": "mysql",
+  "db-host": "",
+  "db-name": "",
+  "db-port": 3306,
+  "db-user": "root",
+  "db-psswrd": "12345",
+
+  "script-dir": "./mysql_scripts/",
+  "result-file": "./mysql_scripts/result.json",
+  "iteration-count": 50
+}
