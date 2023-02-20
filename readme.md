@@ -33,25 +33,25 @@ A list of technologies used for the project:
 
 - Keep your environment up to date
 
-```json
+```
 $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 - Install python3, pip
 
-```json
+```
 $ sudo apt install python3
 $ python3 -m pip install --upgrade pip
 ```
 
 - Install a psycopg2 library
 
-```json
+```
 $ python3 -m pip install psycopg2-binary
 ```
 - Install a mysql library
 
-```json
+```
 $ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
 
 ```
@@ -60,26 +60,26 @@ $ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
 - Install [Python 3](https://www.python.org/download/releases/3.0/)
 - Install a psycopg2 library
 
-```json
+```
 $ pip install psycopg2
 ```
 - Install a mysql library
 
-```json
+```
 $ pip install mysqlclient
 ```
 
 ## Start the program <a name="start-program"></a>
 
-```json
+```
 $ python3 main.py ./mysql_scripts/config.json
 ```
 or
-```json
+```
 $ python3 main.py ./pg_scripts/config.json --db-psswrd=<password>
 ```
 or
-```json
+```
 $ python3 main.py ./pg_scripts/config.json --db-user=<user> --db-psswrd=<password>
 ```
 
@@ -92,7 +92,7 @@ Yes, you need to write a new config-file and add folder of measuring queries.
 
 - <u>Can any parameter from json-file be rewritten by command line?</u><br/>
 Yes, you need to use a parameter's name from json-file. For example:
-```json
+```
 $ python3 main.py ./pg_scripts/config.json --result-file=my_result.json
 ```
 
